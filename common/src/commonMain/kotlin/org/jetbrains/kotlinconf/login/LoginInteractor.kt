@@ -1,6 +1,6 @@
 package org.jetbrains.kotlinconf.login
 
-class LoginInterator {
+class LoginInteractor {
 
     lateinit var presenter: LoginPresenter
 
