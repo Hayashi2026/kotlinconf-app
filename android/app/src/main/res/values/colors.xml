@@ -10,6 +10,11 @@
     <color name="appbar_buttons_scrim_center">#10000000</color>
     <color name="appbar_buttons_scrim_end">@android:color/transparent</color>
     <color name="ic_launcher_background">#FFFFFF</color>
+    <color name="om_gray4">#E5E5E5</color>
+    <color name="om_gray5">#C2C2C2</color>
+    <color name="om_gray7">#909090</color>
+    <color name="om_gray11">#2C2C2C</color>
+    <color name="om_blue6">#1797EB</color>
 
     <color name="yc_blue4">#2da9ee</color>
     <color name="yc_blue5">#1797EB</color>

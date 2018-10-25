@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ClearEditText">
+        <attr name="clearEditTextClearIcon" format="reference" />
+        <attr name="clearEditTextClearIconWidth" format="dimension"/>
+        <attr name="clearEditTextClearIconHeight" format="dimension"/>
+    </declare-styleable>
+</resources>

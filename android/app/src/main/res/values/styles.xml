@@ -12,8 +12,7 @@
         <item name="android:textSize">30sp</item>
         <item name="android:textColor">?android:attr/textColorPrimary</item>
     </style>
-
-    <style name="CommonButton" parent="@style/Widget.AppCompat.Button.Borderless">
+    <style name="LoginCommonButton" parent="@style/Widget.AppCompat.Button.Borderless">
         <item name="android:background">@drawable/selector_login_button_bg</item>
         <item name="android:textColor">@color/selector_login_button_text</item>
         <item name="android:textStyle">bold</item>

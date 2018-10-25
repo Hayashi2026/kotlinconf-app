@@ -1,11 +1,9 @@
 <resources>
 
     <string name="login_next_button">下一步</string>
-    <string name="login_register_auto_tip">若该手机号未注册，我们会自动为您注册</string>
     <string name="login_username_email_login">用户名/邮箱登录</string>
     <string name="login_other_account">其他帐号登录</string>
     <string name="login_country_code_china">+86</string>
-    <string name="login_input_phone_hint">请输入手机号</string>
     <string name="login_account_qq_name">QQ帐号</string>
     <string name="login_account_wechat">微信帐号</string>
     <string name="login_account_huawei_name">华为帐号</string>
@@ -201,4 +199,8 @@ liability.</p> ]]></string>
     <string name="privacy_policy_text"><![CDATA[To proceed please accept the <a href="https://www.jetbrains.com/company/privacy.html">Privacy Policy</a>]]></string>
     <string name="privacy_policy_accept">I accept the Privacy Policy</string>
     <string name="submit_button">Submit</string>
+    <string name="login_welcome">欢迎来到</string>
+    <string name="login_onion_math">洋葱数学</string>
+    <string name="login_register_auto_tip">若该手机号未注册，我们会自动为您注册</string>
+    <string name="login_input_phone_hint">请输入手机号</string>
 </resources>

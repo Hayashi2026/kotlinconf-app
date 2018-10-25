@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.jetbrains.kotlinconf.login.LoginView xmlns:android="http://schemas.android.com/apk/res/android"
+                                                 xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                 xmlns:tools="http://schemas.android.com/tools"
+                                                 android:layout_width="match_parent"
+                                                 android:layout_height="match_parent"
+                                                 android:background="@android:color/white"
+                                                 android:clickable="true">
+
+    <LinearLayout
+            android:id="@+id/llNextBtnContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/selector_login_btn_shadow"
+            android:enabled="false"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/autoRegisterTip">
+
+        <Button
+                android:id="@+id/nextButton"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                style="@style/LoginCommonButton"
+                android:layout_gravity="center"
+                android:enabled="false"
+                android:text="下一步"/>
+    </LinearLayout>
+
+    <TextView
+            android:id="@+id/autoRegisterTip"
+            fontPath="fonts/OnionMath_Regular-regular.ttf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/login_register_auto_tip"
+            android:textColor="@color/om_gray7"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@+id/inputView"
+            app:layout_constraintTop_toBottomOf="@+id/inputView"
+            tools:ignore="MissingPrefix"/>
+
+    <LinearLayout
+            android:id="@+id/headerImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="100dp"
+            android:orientation="vertical"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/signup_logo">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/login_welcome"
+                android:textColor="@color/om_gray7"
+                android:textSize="20sp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/login_onion_math"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="40sp"
+                android:layout_marginTop="12dp"/>
+
+    </LinearLayout>
+
+    <include
+            android:id="@+id/inputView"
+            layout="@layout/view_login_phone_number_edit_text"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/headerImage"/>
+
+    <TextView
+            android:id="@+id/emailLoginButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:text="用户名/邮箱登录"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="@+id/autoRegisterTip"
+            app:layout_constraintTop_toBottomOf="@+id/llNextBtnContainer"/>
+
+
+    <include
+            android:id="@+id/include"
+            layout="@layout/view_login_other_icon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="28dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginStart="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+
+</org.jetbrains.kotlinconf.login.LoginView>
