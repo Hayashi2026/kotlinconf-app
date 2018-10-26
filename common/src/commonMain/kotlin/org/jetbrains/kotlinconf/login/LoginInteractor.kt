@@ -15,7 +15,9 @@ class LoginInteractor {
      * 点击下一步按钮
      */
     private fun setNextButtonClick() {
+        presenter.nextButtonClick({
 
+        })
     }
 
     /**
@@ -37,7 +39,7 @@ class LoginInteractor {
      */
     interface LoginPresenter {
 
-        fun nextButtonClick(): ()->String
+        fun nextButtonClick(callback: (String) -> Unit)
 
         fun hideSoftKeyboard()
 
