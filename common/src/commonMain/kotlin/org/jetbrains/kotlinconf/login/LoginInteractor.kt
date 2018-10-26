@@ -37,7 +37,7 @@ class LoginInteractor {
      */
     interface LoginPresenter {
 
-        fun nextButtonClick(): String
+        fun nextButtonClick(): ()->String
 
         fun hideSoftKeyboard()
 
