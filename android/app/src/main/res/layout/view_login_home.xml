@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <org.jetbrains.kotlinconf.login.LoginView xmlns:android="http://schemas.android.com/apk/res/android"
-                                                 xmlns:app="http://schemas.android.com/apk/res-auto"
-                                                 xmlns:tools="http://schemas.android.com/tools"
-                                                 android:layout_width="match_parent"
-                                                 android:layout_height="match_parent"
-                                                 android:background="@android:color/white"
-                                                 android:clickable="true">
+                                          xmlns:app="http://schemas.android.com/apk/res-auto"
+                                          xmlns:tools="http://schemas.android.com/tools"
+                                          android:layout_width="match_parent"
+                                          android:layout_height="match_parent"
+                                          android:background="@android:color/white"
+                                          android:clickable="true">
 
     <LinearLayout
             android:id="@+id/llNextBtnContainer"
@@ -54,7 +54,7 @@
             android:layout_marginStart="24dp"
             android:layout_marginTop="100dp"
             android:orientation="vertical"
-            android:visibility="gone"
+            android:visibility="visible"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/signup_logo">

@@ -3,13 +3,14 @@ package org.jetbrains.kotlinconf.login
 import android.content.Context
 import android.support.constraint.ConstraintLayout
 import android.util.AttributeSet
-import android.widget.Button
+import kotlinx.android.synthetic.main.view_login_home.view.*
 
 class LoginView @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null, defStyle: Int = 0) : ConstraintLayout(context, attrs, defStyle), LoginInteractor.LoginPresenter {
 
+
     override fun nextButtonClick(callback: (String) -> Unit) {
-        findViewWithTag<Button>("").setOnClickListener {
-            callback.invoke("phone")
+        nextButton.setOnClickListener {
+            callback.invoke("")
         }
     }
 

@@ -2,9 +2,9 @@ package org.jetbrains.kotlinconf.login
 
 class LoginInteractor {
 
-    lateinit var presenter: LoginPresenter
+//    lateinit var presenter: LoginPresenter
 
-    lateinit var loginService: LoginService
+//    lateinit var loginService: LoginService
 
     fun didBecomeActive() {
         setNextButtonClick()
@@ -15,9 +15,7 @@ class LoginInteractor {
      * 点击下一步按钮
      */
     private fun setNextButtonClick() {
-        presenter.nextButtonClick({
 
-        })
     }
 
     /**
